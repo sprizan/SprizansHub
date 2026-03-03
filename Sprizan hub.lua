@@ -95,7 +95,7 @@ local POSITION_L1 = Vector3.new(-476.48, -6.28, 92.73)
 local POSITION_L2 = Vector3.new(-483.12, -4.95, 94.80)
 local POSITION_R1 = Vector3.new(-476.16, -6.52, 25.62)
 local POSITION_R2 = Vector3.new(-483.04, -5.09, 23.14)
-local CONFIG_NAME, lastSaveTime, savedAnimate = "VoidHubConfig", 0, nil
+local CONFIG_NAME, lastSaveTime, savedAnimate = "SprizanHubConfig", 0, nil
 local floatButtons = {}
 local FPSLabel, PingLabel = nil, nil
 
@@ -1716,7 +1716,7 @@ end)
 
 task.spawn(function()
 	task.wait(0.3)
-	updateToggleUI("Void Mode", galaxyEnabled)
+	updateToggleUI("Sprizan Mode", galaxyEnabled)
 	updateToggleUI("Spin Bot", spinBotEnabled)
 	updateToggleUI("Unwalk", unwalkEnabled)
 	updateToggleUI("Anti Ragdoll", antiRagdollEnabled)
